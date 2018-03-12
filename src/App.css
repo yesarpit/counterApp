@@ -1,0 +1,59 @@
+.counterContainer {
+	background: #159957;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #155799, #159957);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #155799, #159957);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 150px;
+	margin: 25px;
+	color: white;
+	text-align: center;
+	font-size: 32px;
+	padding: 10px;
+	width: 200px;
+	display: inline-block;
+}
+
+.addCounter {
+	background: #14231c47;
+	color: white;
+	border: 0;
+	border-radius: 4px;
+	padding: 9px;
+}
+
+.addCounter:hover {
+	color: white;
+	font-size: 15px;
+	transition: .5s;
+}
+
+.counterContainer:hover {
+	box-shadow: #efefef 14px 14px 1px 1px
+}
+
+.counterCount {
+	font-size: 18px;
+	color: white
+}
+
+.digitContainer {
+font-size: 35px;
+}
+
+.decrement {
+	background: #155d94;
+	border: 0;
+	border-radius: 3px;
+	height: 26px;
+	color: white;
+}
+
+.increment {
+	background: #158b65;
+	border: 0;
+	border-radius: 3px;
+	height: 26px;
+	color: white;
+}
